@@ -1,9 +1,25 @@
-# Death
+# Exploration of Mortality
 
-https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple
+## Team Members
+Abear Awadallah
+Brown Varghese
+Mike Ingram
+Gretel Uptegrove
 
-# Analyze death data for interesting stuff
+## Project Description
+We are interested in exploring the relationships between mortality and various demographic data such as race, income, and education.
 
-# Each collaborator views data to see if there are potential relationships between cause of death and demographics such as education.
+## Reseach Questions
 
-# Each collaborator comes up with 4 potential research questiions to analyze in this project.
+## Possible Resources
+
+CDC Wonder: https://wonder.cdc.gov/
+Causes of Death: https://wonder.cdc.gov/ucd-icd10.html
+Infant Mortality: https://wonder.cdc.gov/natality-current.html
+Cancer Mortality: https://wonder.cdc.gov/cancermort-v2015.HTML
+STD Mortality: https://wonder.cdc.gov/std.html
+FRED Economic Data: https://fred.stlouisfed.org/
+Orange Book (Approved Drug Products with Therapeutic Equivalence Evaluations): https://www.accessdata.fda.gov/Scripts/cder/ob/index.cfm
+
+## Task Breakdown
+In the intial stages of the project, each member will explore data from various resources to determine possible interesting research questions to answer.
