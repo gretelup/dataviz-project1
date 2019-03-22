@@ -1,0 +1,43 @@
+﻿Variables
+
+States/Counties: 
+All States within the United States- National level
+
+**California- State with the strongest gun laws on a national level, rated number 1 within the United States. 
+**Louisiana- State with the weakest gun laws on national level, rated 50 within the United States.
+**Additional states for possible review: (New Jersey- #2 & Mississippi-#49)
+
+Independent Variables: 
+	1. Year(10 Year time frame) 2008-2017
+	2. Race
+	3. Gender
+	4. Ten Year Age Groups
+	5. Poverty Rate -Not confirmed yet.
+
+Dependent Variables:
+	1. Injury Mechanism- Firearm 
+	2. Injury Intent- Suicide/ Homicide
+
+
+Core Hypothesis: 
+
+Research Questions:
+ 
+	1. Compare gun deaths within each state over the 10 yr (2008-2017) time period. 
+	a. Which state had a significant trendline over the 10 years? 
+	b. Analyze trendlines for high/low peaks per state- note which year has a significant low or high peak for each state? 
+	***(Analyze a peak or something interesting within the trendlines to decide on specific year for analysis on the following questions) :
+	
+	2. Which state has the greatest/lowest number of gun deaths? Analyze by the following:
+		•  Race- Which race had the highest/lowest number of gun deaths per state?
+		• Gender- Which gender is associated with highest/lowest number of gun    deaths within each state?
+		• Age- Determine which age groups had the highest/lowest number of gun deaths within each state?
+	3. Homicide and Suicide counts within each state?
+	c. As a whole- Which state had the highest/lowest number of homicides compared to suicides?
+	d. Individually- Compare homicide counts(highest/lowest numbers) within each state and compare suicide counts(highest/lowest numbers) within each state?
+		Analyze by:
+		• Race- Which race had the highest/lowest homicide and suicide count per state?
+		• Gender- Which gender had the highest/lowest homicide and suicide count  per state?
+		• Age: Which age group had the highest/lowest homicide and suicide count per state?
+		
+Heatmap of the U.S- Total gun deaths, homicides, suicides, poverty rate per county.
