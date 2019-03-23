@@ -1,65 +1,51 @@
 ---
-Dataset: Underlying Cause of Death, 1999-2017
+Dataset: United States and Puerto Rico Cancer Statistics, 1999-2015 Mortality
 Query Parameters:
-Injury Mechanism & All Other Leading Causes: Firearm
-Group By: State; Race; Ten-Year Age Groups; Year; Injury Intent
+Cancer Sites: Lung and Bronchus
+Year: 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015
+Group By: State; Year; Sex; Race; Age Group
 Show Totals: Disabled
-Show Zero Values: Disabled
+Show Zero Values: False
 Show Suppressed: False
 Calculate Rates Per: 100,000
-Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)
+Standard Population: 2000 U.S. Std. Million
 ---
-Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.
+Help: See http://wonder.cdc.gov/wonder/help/CancerMort-v2015.html for more information.
 ---
-Query Date: Mar 23, 2019 10:18:57 AM
+Query Date: Mar 23, 2019 11:16:49 AM
 ---
-Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death
-1999-2017 on CDC WONDER Online Database, released December, 2018. Data are from the Multiple Cause of Death Files, 1999-2017, as
-compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed
-at http://wonder.cdc.gov/ucd-icd10.html on Mar 23, 2019 10:18:57 AM
+Suggested Citation: United States Cancer Statistics: 1999 - 2015 Mortality, WONDER Online Database. United States Department of
+Health and Human Services, Centers for Disease Control and Prevention; 2018. Accessed at
+http://wonder.cdc.gov/CancerMort-v2015.html on Mar 23, 2019 11:16:49 AM
 ---
 Messages:
-1. The full results are too long to be displayed. Due to suppression constraints rows that are zero, suppressed or a total will
-not be available.
+1. Totals are not available for these results due to suppression constraints. More Information:
+http://wonder.cdc.gov/wonder/help/faq.html#Privacy.
+2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows.
+3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows.
 ---
 Caveats:
-1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:
-http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision.
-2. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of
-death code R99, "Other ill-defined and unspecified causes of mortality." Caution should be used in interpreting these data.
-More information: http://wonder.cdc.gov/wonder/help/ucd.html#Georgia-Reporting-Anomalies.
-3. Circumstances in New Jersey for the year 2009 have resulted in unusually high death counts for the ICD-10 cause of death code
-R99, "Other ill-defined and unspecified causes of mortality" and therefore unusually low death counts in other ICD-10 codes,
-most notably R95, "Sudden Infant Death Syndrome" and X40-X49, "Unintentional poisoning." Caution should be used in
-interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#New-Jersey-Reporting-Anomalies.
-4. Circumstances in California resulted in unusually high death counts for the ICD-10 cause of death code R99, "Other
-ill-defined and unspecified causes of mortality" for deaths occurring in years 2000 and 2001. Caution should be used in
-interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#California-Reporting-Anomalies.
-5. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:
-http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable.
-6. Deaths of persons with Age "Not Stated" are included in "All" counts and rates, but are not distributed among age groups,
-so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:
-http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated.
-7. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the
-funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis
-of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin
-are inconsistent between these two data sources, death rates will be biased. More information:
-http://wonder.cdc.gov/wonder/help/ucd.html#Racial Differences.
-8. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017
-postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race estimates of the July
-1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The population figures for
-year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal series released by NCHS
-on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident population, from the
-Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are bridged-race
-estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26, 2014. The
-population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012 postcensal
-series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race estimates of the July 1 resident
-population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012. Population figures for 2010 are April 1
-Census counts. The population figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident population, from
-the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population figures for 2000 are
-April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1 estimates. Population
-figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates and population figures for years 2001 -
-2009 differ slightly from previously published reports, due to use of the population estimates which were available at the time
-of release.
-9. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the
-resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group.
+1. 'Suppressed' is displayed for data values when they must not be provided in order to protect personal privacy. Data is
+suppressed if fewer than 16 cases are reported in any one line of the results table. Data for the "Asian / Pacific Islander"
+and "American Indian or Alaska Native" race categories are suppressed at the Metropolitan Statistical Area level for
+populations less than 50,000 persons. More information: http://wonder.cdc.gov/wonder/help/CancerMort-v2015.html#Suppressed.
+2. Age-adjusted rates are not available when results are grouped by age.
+3. About rate comparisons: <ul><li> For consistency with the data on cancer incidence, the cancer sites in mortality data were
+grouped according to the revised SEER recodes dated January 27, 2003 (see SEER Cause of Death Recodes:
+http://seer.cancer.gov/codrecode/.). Because NCHS uses different groupings for some sites, the death rates in this report may
+differ slightly from those published by NCHS. In addition, under the ICD, there are differences in mortality and incidence
+coding. For example, there are several codes for mesothelioma in ICD-10 (depending on the primary site). However in ICD-O-3, one
+code captures all of the primary sites that mesothelioma affects. Note that Kaposi sarcoma deaths included in this dataset are
+only those deaths with underlying cause of death attributed to Kaposi Sarcoma, and do not include deaths where the condition was
+a contributing cause of death, or subsequent to another underlying condition. </li><li> The population used to age-adjust the
+rates in this report is the 2000 U.S. standard population, which is in accordance with a 1998 recommendation of the US.
+Department of Health and Human Services. The 2000 U.S. standard population is based on the proportion of the 2000 population in
+specific age groups (younger than 1 year, 1-4 years, 5-9 years, 10-14 years, 15-19 years, . . . 85 years or older); the
+proportions of the 2000 population in these age groups serve as weights for calculating age-adjusted incidence and death rates.
+NCHS, however, uses a different set of age groups in its age adjustment of death rates, and thus the cancer death rates in this
+report may differ slightly from those published by NCHS. </li><li> Deaths of persons of unknown age are not included in this
+data set. Death rates may differ slightly from other reports where deaths of persons of unknown age are included. </li></ul>
+4. For the 2005 year, the Census Bureau estimates that 203,937 persons were displaced from Alabama, Louisiana, Mississippi and
+Texas due to Hurricanes Katrina and Rita. CDC WONDER does not include the displaced persons in the 2005 population counts for
+these states, nor are these counts included in the summary populations for the affected division, regions or national
+population. However, the USCS web site does include these displaced persons in the national population figures for 2005.
