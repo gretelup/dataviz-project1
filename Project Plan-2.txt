@@ -9,7 +9,7 @@ Independent Variables:
 	Socioeconomic characteristics of the population (per state):
 	3. Race
 	4. Gender
-	5. Age Groups
+	5. Age Groups: 
 	6. Poverty Rate % yrs (2012-2017)
 
 Dependent Variables:
@@ -36,8 +36,21 @@ Research Questions:
 
 	
 Charts:
-Line graph- trend line of lung cancer mortality on a national level
-Bar Chart-
-Pie Chart-
-Scatterplot-
-Heatmap of the U.S- Total gun deaths, homicides, suicides, poverty rate per county.
+1.a.Line graph- trend line of lung cancer mortality on a national level/nationwide over time from 2007-2015. 
+X- axis: Years/ Y-axis: Total of Lung Cancer deaths
+-By Race (different lines/colors per race)
+1.b.Line graph- trendline of lung cancer mortality on a national level/nationwide over time from 2007-2015
+X- axis: Years/ Y-axis: Total of Lung Cancer deaths
+-By Gender (different lines/colors per gender)
+1.c.Line graph- trend line of lung cancer mortality on a national level/nationwide over time from 2007-2015 
+X- axis: Years/ Y-axis: Total of Lung Cancer deaths
+-By Age (different lines/colors per age group)
+
+2*** Pick a significant year from line graph from above ^^
+3*** Then compare States to see which states had the highest/lowest mortality of deaths(bar chart- align states on side, figure out formatting later)
+4*** Pick the state with the highest total mortality lung deaths and a state with the lowest mortality lung deaths and then compare the following for each state:
+   5- Race (pie chart)  ------------------------------> for low/high state 
+   6- Gender(pie chart) ------------------------------> for low/high state
+   7-Age (line graph)  ------------------------------> for low/high state
+
+8. Heatmaps of Poverty rate and Lung Cancer Mortality per state/national level- Total gun deaths, homicides, suicides, poverty rate per county.
