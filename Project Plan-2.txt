@@ -1,43 +1,43 @@
-﻿Variables
+﻿CANCER STATISTICS- 2007 - 2015 Mortality (Lung Cancer)
+Analysis on one of the six leading causes of death- Lung Cancer (according to WHO-World Health Organization) on a national level within in each state from 2001-2015. This analysis will target analyze risk factors/socioeconomic demographics in relation to lung cancer mortality to determine viable relationships and/or correlations between the varaibles. 
 
-States/Counties: 
-All States within the United States- National level
-
-**California- State with the strongest gun laws on a national level, rated number 1 within the United States. 
-**Louisiana- State with the weakest gun laws on national level, rated 50 within the United States.
-**Additional states for possible review: (New Jersey- #2 & Mississippi-#49)
-
+Variables-
 Independent Variables: 
-	1. Year(10 Year time frame) 2008-2017
-	2. Race
-	3. Gender
-	4. Ten Year Age Groups
-	5. Poverty Rate -Not confirmed yet.
+	1. States (All U.S. States- National Level)
+	2. Year(8 Year time frame) 2007-2015
+
+	Socioeconomic characteristics of the population (per state):
+	3. Race
+	4. Gender
+	5. Age Groups
+	6. Poverty Rate % yrs (2012-2017)
 
 Dependent Variables:
-	1. Injury Mechanism- Firearm 
-	2. Injury Intent- Suicide/ Homicide
+	1.Cancer Sites- Lung and Bronchus
+	2. Death and population from the Census-
 
-
-Core Hypothesis: 
+	
+Core Hypothesis: ?
 
 Research Questions:
  
-	1. Compare gun deaths within each state over the 10 yr (2008-2017) time period. 
-	a. Which state had a significant trendline over the 10 years? 
-	b. Analyze trendlines for high/low peaks per state- note which year has a significant low or high peak for each state? 
+	1. Compare Lung Cancer deaths within each state over (2007-2015) time interval. 
+	a. Which state had a significant trendline over the 8 year timeframe? 
+	b. Compare total lung cancer deaths of all states per year. 
+	c. Analyze trendlines for high/low peaks per state- note which year has a significant low or high peak for each state? 
 	***(Analyze a peak or something interesting within the trendlines to decide on specific year for analysis on the following questions) :
 	
-	2. Which state has the greatest/lowest number of gun deaths? Analyze by the following:
-		•  Race- Which race had the highest/lowest number of gun deaths per state?
-		• Gender- Which gender is associated with highest/lowest number of gun    deaths within each state?
-		• Age- Determine which age groups had the highest/lowest number of gun deaths within each state?
-	3. Homicide and Suicide counts within each state?
-	c. As a whole- Which state had the highest/lowest number of homicides compared to suicides?
-	d. Individually- Compare homicide counts(highest/lowest numbers) within each state and compare suicide counts(highest/lowest numbers) within each state?
-		Analyze by:
-		• Race- Which race had the highest/lowest homicide and suicide count per state?
-		• Gender- Which gender had the highest/lowest homicide and suicide count  per state?
-		• Age: Which age group had the highest/lowest homicide and suicide count per state?
-		
+	2. Which state has the greatest/lowest number of lung cancer deaths? Analyze by the following:
+		•  Race- Which race had the highest/lowest number of lung cancer deaths per state?
+		• Gender- Which gender is associated with highest/lowest number of lung cancer deaths within each state?
+		• Age- Determine which age groups had the highest/lowest number of lung cancer deaths within each state?
+
+	3. Lunger Cancer and poverty rate % assoication per state. Is there a relationship between poverty and lung cancer?  
+
+	
+Charts:
+Line graph- trend line of lung cancer mortality on a national level
+Bar Chart-
+Pie Chart-
+Scatterplot-
 Heatmap of the U.S- Total gun deaths, homicides, suicides, poverty rate per county.
