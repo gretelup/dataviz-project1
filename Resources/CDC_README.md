@@ -1,22 +1,23 @@
 ---
 Dataset: United States and Puerto Rico Cancer Statistics, 1999-2015 Mortality
 Query Parameters:
-Cancer Sites: Lung and Bronchus
+Title: CDC_Cancer
+Leading Cancer Sites: Lung and Bronchus
 Year: 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015
 Group By: State; Year; Sex; Race; Age Group
 Show Totals: Disabled
 Show Zero Values: False
 Show Suppressed: False
 Calculate Rates Per: 100,000
-Standard Population: 2000 U.S. Std. Million
+Standard Population: World Std. Million
 ---
 Help: See http://wonder.cdc.gov/wonder/help/CancerMort-v2015.html for more information.
 ---
-Query Date: Mar 23, 2019 11:16:49 AM
+Query Date: Mar 23, 2019 12:16:03 PM
 ---
 Suggested Citation: United States Cancer Statistics: 1999 - 2015 Mortality, WONDER Online Database. United States Department of
 Health and Human Services, Centers for Disease Control and Prevention; 2018. Accessed at
-http://wonder.cdc.gov/CancerMort-v2015.html on Mar 23, 2019 11:16:49 AM
+http://wonder.cdc.gov/CancerMort-v2015.html on Mar 23, 2019 12:16:03 PM
 ---
 Messages:
 1. Totals are not available for these results due to suppression constraints. More Information:
