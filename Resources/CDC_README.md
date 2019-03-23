@@ -1,17 +1,27 @@
+---
 Dataset: Underlying Cause of Death, 1999-2017
 Query Parameters:
 Injury Mechanism & All Other Leading Causes: Firearm
-Group By: Year; Race; Gender; Injury Intent
-Show Zero Values: True
+Group By: State; Race; Ten-Year Age Groups; Year; Injury Intent
+Show Totals: Disabled
+Show Zero Values: Disabled
 Show Suppressed: False
 Calculate Rates Per: 100,000
 Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)
+---
 Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.
-Query Date: Mar 21, 2019 5:15:58 PM
+---
+Query Date: Mar 23, 2019 10:18:57 AM
+---
 Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death
 1999-2017 on CDC WONDER Online Database, released December, 2018. Data are from the Multiple Cause of Death Files, 1999-2017, as
 compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed
-at http://wonder.cdc.gov/ucd-icd10.html on Mar 21, 2019 5:15:58 PM
+at http://wonder.cdc.gov/ucd-icd10.html on Mar 23, 2019 10:18:57 AM
+---
+Messages:
+1. The full results are too long to be displayed. Due to suppression constraints rows that are zero, suppressed or a total will
+not be available.
+---
 Caveats:
 1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:
 http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision.
@@ -27,12 +37,15 @@ ill-defined and unspecified causes of mortality" for deaths occurring in years 2
 interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#California-Reporting-Anomalies.
 5. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:
 http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable.
-6. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the
+6. Deaths of persons with Age "Not Stated" are included in "All" counts and rates, but are not distributed among age groups,
+so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:
+http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated.
+7. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the
 funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis
 of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin
 are inconsistent between these two data sources, death rates will be biased. More information:
 http://wonder.cdc.gov/wonder/help/ucd.html#Racial Differences.
-7. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017
+8. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017
 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race estimates of the July
 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The population figures for
 year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal series released by NCHS
@@ -48,5 +61,5 @@ April 1 Census counts. Population figures for 1999 are from the 1990-1999 interc
 figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates and population figures for years 2001 -
 2009 differ slightly from previously published reports, due to use of the population estimates which were available at the time
 of release.
-8. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the
+9. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the
 resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group.
