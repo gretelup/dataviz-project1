@@ -1,29 +1,28 @@
 ---
 Dataset: United States and Puerto Rico Cancer Statistics, 1999-2015 Mortality
 Query Parameters:
-Title: CDC_Cancer
+Title: Cancer
 Leading Cancer Sites: Lung and Bronchus
-Year: 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015
+Year: 2006; 2007; 2008; 2009; 2010
 Group By: State; Year; Sex; Race; Age Group
 Show Totals: Disabled
-Show Zero Values: False
+Show Zero Values: True
 Show Suppressed: False
 Calculate Rates Per: 100,000
-Standard Population: World Std. Million
+Standard Population: 2000 U.S. Std. Million
 ---
 Help: See http://wonder.cdc.gov/wonder/help/CancerMort-v2015.html for more information.
 ---
-Query Date: Mar 23, 2019 12:16:03 PM
+Query Date: Mar 24, 2019 8:44:13 AM
 ---
 Suggested Citation: United States Cancer Statistics: 1999 - 2015 Mortality, WONDER Online Database. United States Department of
 Health and Human Services, Centers for Disease Control and Prevention; 2018. Accessed at
-http://wonder.cdc.gov/CancerMort-v2015.html on Mar 23, 2019 12:16:03 PM
+http://wonder.cdc.gov/CancerMort-v2015.html on Mar 24, 2019 8:44:13 AM
 ---
 Messages:
 1. Totals are not available for these results due to suppression constraints. More Information:
 http://wonder.cdc.gov/wonder/help/faq.html#Privacy.
-2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows.
-3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows.
+2. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows.
 ---
 Caveats:
 1. 'Suppressed' is displayed for data values when they must not be provided in order to protect personal privacy. Data is
