@@ -1,10 +1,21 @@
 ﻿CANCER STATISTICS- 2007 - 2015 Mortality (Lung Cancer)
 
-We wanted to investigate how lung cancer occured in the population. We looked at gender, race, age, location, and poverty level.
+We wanted to investigate how lung cancer occured in the population. We looked at gender, race, age, location, and poverty level- assessment of risk?
+
+-Does gender,race/ethnicity, age, poverty, and geographic disparties exist within lung cancer mortality (nationwide/specific states & which year or all years)
+
+
 
 Then we narrowed down to race and poverty.
+-Mechanisms underlying racial differences in lung cancer deaths may be confounded by socioecnomic factors such as poverty rate. 
 
 What is more determinative on lung cancer mortality, race or poverty?
+Null Hypothesis(H0):There is no relationship between race and lung cancer mortality within 2015
+Alternative Hypothesis(H1):There is a relationship between race and lung cancer mortality within 2015
+
+We decided to conduct a Chi-Square test on race and lung cancer mortality for 2015 using a p-value of 0.001. After conducting the test, we decided to reject the null hypothesis since the chi-square (10042.59) value exceeds the critical value (16.27) and accept the alternative hypothesis which states that there is a realtionship between race and lung cancer mortality within 2015. 
+
+Null Hypothes
 
 1. Line graph - over 10 years cancer deaths by race
 - Brown- update with more years from new csv files and adjust values to be crude rate, not total
@@ -21,8 +32,9 @@ What is more determinative on lung cancer mortality, race or poverty?
 Analysis on one of the six leading causes of death- Lung Cancer (according to WHO-World Health Organization) on a national level within in each state from 2001-2015. This analysis will target analyze risk factors/socioeconomic demographics in relation to lung cancer mortality to determine viable relationships and/or correlations between the varaibles. 
 
 
+ 
 
-Variables-
+Variables- Year 2015
 Independent Variables: 
 	1. States (All U.S. States- National Level)
 	2. Year(8 Year time frame) 2007-2015
