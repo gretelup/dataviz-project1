@@ -1,21 +1,44 @@
 ﻿CANCER STATISTICS- 2007 - 2015 Mortality (Lung Cancer)
 
-We wanted to investigate how lung cancer occured in the population. We looked at gender, race, age, location, and poverty level- assessment of risk?
+Hypotheses: 
 
--Does gender,race/ethnicity, age, poverty, and geographic disparties exist within lung cancer mortality (nationwide/specific states & which year or all years)
+Null Hypothesis(H0):There is no relationship between race and lung cancer mortality within 2015
+Alternative Hypothesis(H1):There is a relationship between race and lung cancer mortality within 2015
 
+Null Hypothesis(H0):There is no relationship between poverty and lung cancer mortality within 2015
+Alternative Hypothesis(H1):There is a relationship between poverty and lung cancer mortality within 2015
 
+Analysis on one of the six leading causes of death- Lung Cancer Mortality(according to WHO-World Health Organization) on a national level in 2015 This analysis will focus on disparities within demographicsin relation to lung cancer mortality to determine viable relationships and/or correlations between the varaibles. 
+
+Demographics include:
+1. Race 
+2. Poverty Rate
+3. Gender
+4. Age
+5. Geography
+ 
+Specifically, does gender,race, age, poverty, and geographic disparties exist within lung cancer mortality across the United States in 2015. 
 
 Then we narrowed down to race and poverty.
 -Mechanisms underlying racial differences in lung cancer deaths may be confounded by socioecnomic factors such as poverty rate. 
 
 What is more determinative on lung cancer mortality, race or poverty?
+
+
+
+Hypotheses: 
+
 Null Hypothesis(H0):There is no relationship between race and lung cancer mortality within 2015
 Alternative Hypothesis(H1):There is a relationship between race and lung cancer mortality within 2015
 
+Null Hypothesis(H0):There is no relationship between poverty and lung cancer mortality within 2015
+Alternative Hypothesis(H1):There is a relationship between poverty and lung cancer mortality within 2015
+
+Statisical Testing:
+
 We decided to conduct a Chi-Square test on race and lung cancer mortality for 2015 using a p-value of 0.001. After conducting the test, we decided to reject the null hypothesis since the chi-square (10042.59) value exceeds the critical value (16.27) and accept the alternative hypothesis which states that there is a realtionship between race and lung cancer mortality within 2015. 
 
-Null Hypothes
+
 
 1. Line graph - over 10 years cancer deaths by race
 - Brown- update with more years from new csv files and adjust values to be crude rate, not total
@@ -34,10 +57,11 @@ Analysis on one of the six leading causes of death- Lung Cancer (according to WH
 
  
 
-Variables- Year 2015
+Variables- 
 Independent Variables: 
 	1. States (All U.S. States- National Level)
-	2. Year(8 Year time frame) 2007-2015
+        2. Counties within the U.S. 
+	2. Year(s): 2007-2015
 
 	Socioeconomic characteristics of the population (per state):
 	3. Race
@@ -47,43 +71,31 @@ Independent Variables:
 
 Dependent Variables:
 	1.Cancer Sites- Lung and Bronchus
-	2. Death and population from the Census-
+	2.Death and population from the Census-
 
 	
 Core Hypothesis: ?
 
-Research Questions:
- 
-	1. Compare Lung Cancer deaths within each state over (2007-2015) time interval. 
-	a. Which state had a significant trendline over the 8 year timeframe? 
-	b. Compare total lung cancer deaths of all states per year. 
-	c. Analyze trendlines for high/low peaks per state- note which year has a significant low or high peak for each state? 
-	***(Analyze a peak or something interesting within the trendlines to decide on specific year for analysis on the following questions) :
-	
-	2. Which state has the greatest/lowest number of lung cancer deaths? Analyze by the following:
-		•  Race- Which race had the highest/lowest number of lung cancer deaths per state?
-		• Gender- Which gender is associated with highest/lowest number of lung cancer deaths within each state?
-		• Age- Determine which age groups had the highest/lowest number of lung cancer deaths within each state?
+states_crude=states_crude.sort_values()
 
-	3. Lunger Cancer and poverty rate % assoication per state. Is there a relationship between poverty and lung cancer?  
+#set x axis and tick locations
+barlabels = states_crude.index.tolist()
+x_axis = np.arange(len(barlabels))
+tick_locations = [value for value in x_axis]
 
-	
-Charts:
-1.a.Line graph- trend line of lung cancer mortality on a national level/nationwide over time from 2007-2015. 
-X- axis: Years/ Y-axis: Total of Lung Cancer deaths
--By Race (different lines/colors per race)
-1.b.Line graph- trendline of lung cancer mortality on a national level/nationwide over time from 2007-2015
-X- axis: Years/ Y-axis: Total of Lung Cancer deaths
--By Gender (different lines/colors per gender)
-1.c.Line graph- trend line of lung cancer mortality on a national level/nationwide over time from 2007-2015 
-X- axis: Years/ Y-axis: Total of Lung Cancer deaths
--By Age (different lines/colors per age group)
+#plot
+states_crude.plot(kind="bar",color="red", figsize=(20,10))
 
-2*** Pick a significant year from line graph from above ^^
-3*** Then compare States to see which states had the highest/lowest mortality of deaths(bar chart- align states on side, figure out formatting later)
-4*** Pick the state with the highest total mortality lung deaths and a state with the lowest mortality lung deaths and then compare the following for each state:
-   5- Race (pie chart)  ------------------------------> for low/high state 
-   6- Gender(pie chart) ------------------------------> for low/high state
-   7-Age (line graph)  ------------------------------> for low/high state
 
-8. Heatmaps of Poverty rate and Lung Cancer Mortality per state/national level- Total gun deaths, homicides, suicides, poverty rate per county.
+#set x and y limits
+plt.xlim(-0.75, len(x_axis))
+
+
+plt.title("Lung Cancer Mortality Across The U.S. in 2015", fontsize=30)
+plt.xlabel("States", fontsize= 30)
+plt.ylabel("Lung Cancer Crude Rate", fontsize=20)
+plt.xticks(ha='right', rotation=55, fontsize=15)
+plt.savefig("Barchart of the US.png")
+plt.show()
+
+
