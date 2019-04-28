@@ -24,8 +24,8 @@
 
 ## Methods
 * Query CDC Wonder and FRED Economics Data databases
-* Clean data using pandas library in Python within a [Jupyter notebook](Data_Cleaning.ipynb)
-* Create charts and perform statistical analysis using various Python libraries including PANDAS, NumPy, and Matplotlib within a [Jupyter notebook](Data_Analysis.ipynb)
+* Clean data using pandas library in Python within a [Jupyter notebook: Data_Cleaning.ipynb](Data_Cleaning.ipynb)
+* Create charts and perform statistical analysis using various Python libraries including PANDAS, NumPy, and Matplotlib within a [Jupyter notebook: Data_Analysis.ipynb](Data_Analysis.ipynb)
 
 ## Major Findings
 
@@ -41,9 +41,9 @@
 
 ### Poverty & Lung Cancer Mortality
 #### By State
-[Scatter Plot of Poverty v. Lung Cancer by State in 2015](Images/Poverty_v_Cancer_State_Scatter.png)
+![Scatter Plot of Poverty v. Lung Cancer by State in 2015](Images/Poverty_v_Cancer_State_Scatter.png)
 #### By County
-[Scatter Plot of Poverty v. Lung Cancer by County in 2015](Images/Poverty_v_Cancer_County_Scatter.png)
+![Scatter Plot of Poverty v. Lung Cancer by County in 2015](Images/Poverty_v_Cancer_County_Scatter.png)
 
 * Question: Is there a correlation between poverty and lung cancer mortality?
 * Statistical Testing: Regression Analysis
