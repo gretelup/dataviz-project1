@@ -25,7 +25,7 @@
 ## Methods
 * Query CDC Wonder and FRED Economics Data databases
 * Clean data using pandas library in Python within a [Jupyter notebook: Data_Cleaning.ipynb](Data_Cleaning.ipynb)
-* Create charts and perform statistical analysis using various Python libraries including PANDAS, NumPy, and Matplotlib within a [Jupyter notebook: Data_Analysis.ipynb](Data_Analysis.ipynb)
+* Create charts and perform statistical analysis using various Python libraries including PANDAS, NumPy, and Matplotlib within a [Jupyter notebook: data_analysis.ipynb](data_analysis.ipynb)
 
 ## Major Findings
 
