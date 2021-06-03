@@ -38,9 +38,12 @@
 <img src="Images/Race_Cancer_Pie_Chart.png" alt="Population and Cancer Mortality Breakdown by Race in 2015" height ="450">
 
 * Hypothesis testing:
-    * Null Hypothesis(H0): There is no relationship between race and lung cancer mortality in 2015
-    * Alternative Hypothesis(H1): There is a relationship between race and lung cancer mortality in 2015
+    * Null Hypothesis(H0): There is no relationship between race and lung cancer mortality in 2015.
+    * Alternative Hypothesis(H1): There is a relationship between race and lung cancer mortality in 2015.
 * Statistical Testing: Chi-Squared Goodness of Fit Test
+
+<img src="Images/Chi_Squared.png" alt="Chi Squared Goodness of Fit for Race">
+
 * Results of Test: The Chi-Squared value (10042.59) exceeded the critical value (16.27) with a p-value of .001, thus we reject the null hypothesis and accept the alternative hypothesis.
 * Conclusion: There is a highly statistically significant relationship between race and lung cancer mortality in the United States in 2015. 
 
@@ -54,8 +57,19 @@
 
 <img src="Images/Poverty_v_Cancer_County_Scatter.png" alt="Scatter Plot of Poverty v. Lung Cancer by County in 2015" height ="450">
 
-* Question: Is there a correlation between poverty and lung cancer mortality?
+* Question: Is there a correlation between poverty and lung cancer mortality by State? by County?
 * Statistical Testing: Regression Analysis
+
+#### Regression Analysis by State
+
+<img src="Images/Regression_State.png" alt="Regression Analysis by State">
+
+
+#### Regression Analysis by County
+
+<img src="Images/Regression_County.png" alt="Regression Analysis by County">
+
+
 * Results of Analysis: There is a very small R-squared value when you look at poverty and lung cancer mortality across both states (.122) and counties (.110). 
 * Conclusion: There is a very weak positive correlation between poverty and lung cancer mortality in the United States in 2015.
 
